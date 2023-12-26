@@ -1,0 +1,200 @@
+
+
+@media screen and (max-width:400px){
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width:900px){
+    html{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:760px){
+    html{
+        font-size: 100%;
+    }
+    #menu-btn{
+        display: block;
+        
+    }
+    #menu-btn i{
+        font-size: 1.58rem;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 15px;
+        background-color: rgb(101, 118, 225);
+        color: white !important;
+    }
+    .btn-search{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-search i{
+        font-size: 1.5rem;
+    }
+    .btn:hover{
+        border-top: none;
+        border-bottom: none;
+    }
+    .navbar{
+        width: 98%;
+    }
+   
+    nav ul.left-menu{
+        position: fixed;
+        flex-direction: column;
+        top: 86px;
+        left:40%;
+        width: 60%;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+        height: 100vh;
+        background-color: #f2f2f2f2;
+    }
+    nav ul.left-menu li{
+        margin: 8px;
+        width: 100%;
+        border-bottom: 1px solid #f2f2f2f2;
+        
+    }
+    nav ul.left-menu li a:hover{
+       color: blue;
+       border-bottom: 1px solid transparent;
+    }
+    nav ul.show{
+        transform: translateX(0);
+    }
+    .link i{
+        padding: 10px 10px;
+        /* margin-right: -10px; */
+    }
+    /* ->>>>>>>>>>>> */
+    .hero-image{
+        padding: 10px;
+    }
+    .about-text h1{
+        font-size: 30px;
+    }
+    .row img{
+        height: 400px;
+    }
+     /* ->>>>>>>>>>>> */
+     .client-box{
+        padding:10px;
+     }
+     .col h2{
+        font-size: 20px;
+     }
+     .col p{
+        font-size: 10px;
+     }
+     .flex-box-flexibility{
+        padding: 0 10px;
+     }
+
+     .row-flexibility{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        column-gap: 2rem;
+    }
+    .btn-learnmore{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* ->>>>>>> */
+    .hero-images2{
+        padding: 10px;
+    }
+    .row-hero-images2 .col p {
+        display: none;
+    }
+    .row-hero-images2 .col h2,p{
+       
+        text-align: center;
+      
+    }
+    .btn-box{ 
+        display: block;
+        margin-left:100px;
+        
+    }
+
+        .team h2{
+            font-size: 98%;
+        }
+        /* -------------> */
+        .hero-card{
+            padding: 10px;
+        }
+        .row-card{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: 20px;
+        }
+        .col-card h2{
+            text-align: center;
+            font-size: 70%;
+        }
+        /* ---->>>>>>> */
+        .team-card{
+            padding: 10px;
+        }
+        .row-card-team{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .col-card-img h3{
+            font-size: 70%;
+        }
+
+        .col-contact{
+            padding: 20px;
+        }
+        .col-contact h1{
+           font-size: 90%;
+        }
+        .contact{
+            padding-top:40px ;
+        }
+        .row-contact{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+
+        /* ------------->>>>>>> */
+        .h-card{
+            padding: 10px;
+        }
+       .row-h-card{
+        overflow: hidden;
+       }
+       .col_card_title h2{
+        margin-left: 80px;
+       }
+       .col_card_title .input-type{
+        width: 300px;
+        margin-left: 80px;
+       }
+       .col_card_title .subscribe{
+        margin-left: 80px;
+        width: 300px;
+       }
+        /* -->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+       .footer{
+        padding: 10px;
+       }
+        .col-footer2{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+       
+        .link{
+           padding: 0 10px;
+        }
+       
+}
